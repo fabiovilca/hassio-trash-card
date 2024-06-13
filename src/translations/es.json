@@ -1,0 +1,118 @@
+{
+    "editor": {
+        "form": {
+            "color_picker": {
+                "values": {
+                    "default": "Color Predeterminado"
+                }
+            },
+            "day_style": {
+                "title": "Mostrar la hora del evento como",
+                "values": {
+                    "default": "Día",
+                    "counter": "días a",
+                    "custom": "Formato de fecha personalizado"
+                }
+            },
+            "day_style_format": {
+                "title": "Formato de fecha personalizado",
+                "helper": "Defina su formato de fecha. (dd = día con 0, d = día, MM = mes con 0, M = month, yy = año corto, yyyy = año largo) E.j. dd.MM.yyyy = 03.04.2024, dónde d.M.yy = 3.4.24 sería el resultado."
+            },
+            "card_style": {
+                "title": "Ver como",
+                "values": {
+                    "card": "Tarjeta estándar",
+                    "chip": "Tarjeta Chip",
+                    "icon": "Icono"
+                }
+            },
+            "alignment_style": {
+                "title": "Alineación",
+                "values": {
+                    "left": "izquierda",
+                    "center": "centrado",
+                    "right": "derecha",
+                    "space": "espaciado"
+                }
+            },
+            "color_mode": {
+                "title": "Aplicar color a",
+                "values": {
+                    "background": "Fondo",
+                    "icon": "Icono"
+                }
+            },
+            "layout_picker": {
+                "values": {
+                    "default": "Diseño predeterminado",
+                    "vertical": "Diseño Vertical",
+                    "horizontal": "Diseño Horizontal"
+                }
+            },
+            "tabs": {
+                "settings": "Ajustes",
+                "appearance": "Apariencia",
+                "patterns": "Patrones"
+            },
+            "refresh_rate": {
+                "title": "Intervalo de actualización",
+                "helper": "Comprobar cambios en el calendario cada x minutos"
+            }
+        },
+        "card": {
+            "generic": {
+                "icon_color": "Color del icono",
+                "layout": "Diseño",
+                "fill_container": "Llenar el contenedor",
+                "next_days": "Días en el futuro",
+                "filter_events": "Filtrar eventos por patrones",
+                "drop_todayevents_from": "Desde que horario ocultar el evento de todo el día",
+                "full_size": "Tarjeta sin margen",
+                "use_summary": "Resumen del evento en lugar de etiqueta",
+                "hide_time_range": "Ocultar tiempo",
+                "event_grouping": "Mostrar solo el siguiente evento por patrón",
+                "icon_size": "Tamaño del icono",
+                "with_label": "Mostrar etiqueta"
+            },
+            "trash": {
+                "pattern": {
+                    "title": "Editar patrón",
+                    "edit": "editar",
+                    "delete": "borrar",
+                    "create": "Crear nuevo patrón",
+                    "new_custom_label": "Nuevo patrón",
+                    "type": {
+                        "organic": "Orgánico",
+                        "paper": "Papel",
+                        "recycle": "Reciclado",
+                        "waste": "Desperdicio",
+                        "others": "Otros"
+                    },
+                    "fields": {
+                        "label": "Etiqueta",
+                        "color": "Color",
+                        "icon": "Icono",
+                        "pattern": "Detección de patrón",
+                        "picture_url": "URL de Imágen",
+                        "picture_url_description": "Si se especifica una URL de imagen, se muestra la imagen correspondiente en lugar del icono. Coloque una imagen en el `/config/www` folder and use `/local/[filename]`."
+                    }
+                }
+            }
+        }
+    },
+    "card": {
+        "not_found": "Entidad no encontrada",
+        "trash": {
+            "today": "hoy",
+            "tomorrow": "mañana",
+            "day": "<DAY>",
+            "today_from_till": "Hoy\ndesde <START> a <END>",
+            "tomorrow_from_till": "Mañana\nentre <START> y <END>",
+            "day_from_till": "<DAY>\nentre <START> y <END>",
+            "daysleft": "en <DAYS> día",
+            "daysleft_more": "en <DAYS> días",
+            "daysleft_from_till": "en <DAYS> dia\nentre <START> y <END>",
+            "daysleft_more_from_till": "en <DAYS> días\nentre <START> y <END>"
+        }
+    }
+}
